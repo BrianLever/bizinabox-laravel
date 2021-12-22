@@ -1,0 +1,7 @@
+.git/**
+.idea/**
+vendor
+public
+node_modules
+package-lock.json
+storage

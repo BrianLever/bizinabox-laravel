@@ -1,0 +1,111 @@
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+/**
+ * A jQuery module to work with SVG attributes.
+ * @module jQueryAttr
+ * @license MIT
+ */
+
+/**
+ * Browser detection.
+ * @module browser
+ * @license MIT
+ *
+ * @copyright 2010 Jeff Schiller, 2010 Alexis Deveria
+ */
+
+/**
+ * DOM element selection box tools.
+ * @module select
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Jeff Schiller
+ */
+
+/**
+ * For command history tracking and undo functionality.
+ * @module history
+ * @license MIT
+ * @copyright 2010 Jeff Schiller
+ */
+
+/**
+ * HistoryRecordingService component of history.
+ * @module history
+ * @license MIT
+ * @copyright 2016 Flint O'Brien
+ */
+
+/**
+ * Manipulating coordinates.
+ * @module coords
+ * @license MIT
+ */
+
+/**
+ * Miscellaneous utilities.
+ * @module utilities
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Jeff Schiller
+ */
+
+/**
+ * Namespaces or tools therefor.
+ * @module namespaces
+ * @license MIT
+*/
+
+/**
+ * Numerous tools for working with the editor's "canvas".
+ * @module svgcanvas
+ *
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Pavol Rusnak, 2010 Jeff Schiller
+ *
+ */
+
+/**
+ * Partial polyfill of `SVGTransformList`
+ * @module SVGTransformList
+ *
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Jeff Schiller
+ */
+
+/**
+ * Path functionality.
+ * @module path
+ * @license MIT
+ *
+ * @copyright 2011 Alexis Deveria, 2011 Jeff Schiller
+ */
+
+/**
+ * Provides tools for the layer concept.
+ * @module layer
+ * @license MIT
+ *
+ * @copyright 2011 Jeff Schiller, 2016 Flint O'Brien
+ */
+
+/**
+ * Tools for SVG sanitization.
+ * @module sanitize
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Jeff Schiller
+ */
+
+/**
+ * Tools for drawing.
+ * @module draw
+ * @license MIT
+ * @copyright 2011 Jeff Schiller
+ */

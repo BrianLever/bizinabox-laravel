@@ -1,0 +1,116 @@
+body,
+html {
+  background-color: #efefef;
+  height: 100%;
+}
+.header {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #0000003f;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+.header .logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.video-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100% - 60px);
+  width: 100%;
+}
+.video-container .video-category {
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px #00000012;
+  height: 100%;
+  padding-top: 10px;
+  position: relative;
+  width: 300px;
+  z-index: 2;
+}
+.video-container .category-name,
+.video-container .subcategory-name,
+.video-container .video-title {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 8px 15px;
+  white-space: nowrap;
+  width: 100%;
+}
+.video-container .category-name span,
+.video-container .subcategory-name span,
+.video-container .video-title span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.video-container .category-name:hover,
+.video-container .subcategory-name:hover,
+.video-container .video-title:hover {
+  background-color: #00000034;
+}
+.video-container .category-name,
+.video-container .subcategory-name {
+  border-bottom: 1px solid #00000012;
+}
+.video-container .category-name.all {
+  border-top: 1px solid #00000012;
+}
+.video-container .category-name.selected {
+  background-color: #0a6aa1;
+  color: #fff;
+}
+.video-container .subcategory-name,
+.video-container .video-title {
+  padding-left: 30px !important;
+}
+.video-container .video-title {
+  background-color: #efefef;
+}
+.video-container .video-area {
+  padding: 20px;
+  width: calc(100% - 300px);
+}
+.video-container .video-area .video-card {
+  padding-top: 80%;
+  position: relative;
+  width: 100%;
+}
+.video-container .video-area .video-card .content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px #00000012;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  overflow: hidden !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.video-container .video-area .video-card .content .image {
+  cursor: pointer;
+  height: 75%;
+  width: 100%;
+}
+.video-container .video-area .video-card .content .image img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+.text-ellipsis {
+  overflow: hidden;
+  padding: 0 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}

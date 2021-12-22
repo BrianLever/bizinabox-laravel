@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1198px) {
+  .wrapper.register,
+  .wrapper.forgot-password {
+    .logo {
+      display: none;
+    }
+    .content-login {
+      &:after {
+        background: #fff;
+      }
+    }
+  }
+  .wrapper.login {
+    .logo {
+      display: none;
+    }
+    .content-login {
+      margin-top: 150px;
+      &:after {
+        background: #fff;
+      }
+    }
+  }
+}

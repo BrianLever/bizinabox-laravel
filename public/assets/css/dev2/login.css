@@ -1,0 +1,171 @@
+body {
+  font-family: Open Sans, sans-serif;
+}
+.auth_area {
+  background: #edf2f7;
+}
+.auth_area .authApp {
+  border-top: 5px solid #82bc12;
+  display: table-cell;
+  height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+  width: 100vw;
+}
+.auth_area .authApp .main_area {
+  margin: 20px auto;
+  max-width: 500px;
+}
+.auth_area .authApp .form {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  color: #333;
+  padding: 40px;
+}
+.auth_area .authApp .form .field-wrap {
+  margin-bottom: 15px;
+  position: relative;
+}
+.auth_area .authApp .form .field-wrap .psw_eye {
+  bottom: 12px;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+.auth_area .authApp .form .biz_input {
+  background: none;
+  border: 1px solid #a0b3b0;
+  border-radius: 5px;
+  color: #333;
+  display: block;
+  font-size: 16px;
+  height: 100%;
+  padding: 10px;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  width: 100%;
+}
+.auth_area .authApp .form .biz_input:focus {
+  border-color: #71c55d;
+  outline: 0;
+}
+.auth_area .authApp .form .rem_me {
+  margin-left: 0;
+  padding-left: 0;
+  position: relative;
+}
+.auth_area .authApp .form .check_area {
+  color: #333;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 12px;
+  padding-left: 30px;
+  position: relative;
+  text-align: left;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.auth_area .authApp .form .check_area input {
+  cursor: pointer;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  width: 0;
+}
+.auth_area .authApp .form .check_area .checkmark {
+  background-color: #fff;
+  border: 1px solid #86bc42;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}
+.auth_area .authApp .form .check_area .checkmark:after {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  content: '';
+  display: none;
+  height: 15px;
+  left: 6px;
+  position: absolute;
+  top: 1px;
+  transform: rotate(45deg);
+  width: 8px;
+}
+.auth_area .authApp .form .check_area input:checked ~ .checkmark {
+  background-color: #86bc42;
+}
+.auth_area .authApp .form .check_area input:checked ~ .checkmark:after {
+  display: block;
+}
+.auth_area .authApp .form .button-block {
+  display: block;
+  width: 100%;
+}
+.auth_area .authApp .form .auth_button {
+  -webkit-appearance: none;
+  background: #86bc42;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px #3333;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  outline: none;
+  padding: 8px 15px;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+.auth_area .authApp .auth-social-links {
+  text-align: center;
+}
+.auth_area .authApp .auth-social-links a {
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-size: 17px;
+  height: 40px;
+  line-height: 2;
+  margin: 5px;
+  padding: 6px 0 8px;
+  text-align: center;
+  transition: 0.3s;
+  width: 40px;
+}
+.auth_area .authApp .auth-social-links a .fa {
+  font-size: 25px;
+}
+.auth_area .authApp .auth-social-links a:hover {
+  color: #fff;
+}
+.auth_area .authApp .link_to {
+  color: #333;
+}
+.underline {
+  text-decoration: underline;
+}
+.bg-tw {
+  background-color: #1da1f2;
+}
+.bg-fb {
+  background-color: #4267b2;
+}
+.bg-go {
+  background-color: #db4437;
+}
+.bg-ins {
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f09433",endColorstr="#bc1888",GradientType=1);
+}
+.bg-ln {
+  background-color: #2867b2;
+}
+.bg-git {
+  background-color: #24292e;
+}

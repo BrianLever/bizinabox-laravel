@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="116px" viewBox="0 0 72 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs></defs>
+  <g fill="#231F20" fill-rule="nonzero">
+    <g id="Light" opacity="0">
+      <polygon points="-0.0001 0 5.5289 45.304 35.9999 58 35.9999 15"></polygon>
+      <polygon points="35.9999 58 41.5289 103.304 71.9999 116 71.9999 73"></polygon>
+    </g>
+    <g id="Medium" opacity="0.2">
+      <path d="M35.9999,0 L71.9999,0 L35.9999,15 L-0.0001,0 L35.9999,0 Z"></path>
+      <path d="M35.9999,58 L71.9999,46.994 L71.9999,58 L71.9999,73 L35.9999,58 Z" id="Combined-Shape"></path>
+      <path d="M35.9999,58 L-0.0001,73 L-0.0001,58 L35.9999,58 Z M5.5292,45.3037 L36.0002,57.9997 L0.0002,57.9997 L0.0002,46.9937 L5.5292,45.3037 Z"></path>
+      <polygon points="5.5292 45.3037 0.0002 -0.0003 0.0002 42.9997"></polygon>
+      <polygon points="41.5292 103.3037 36.0002 57.9997 36.0002 100.9997"></polygon>
+      <polygon points="41.5292 103.3037 0.0002 115.9997 36.0002 115.9997 72.0002 115.9997"></polygon>
+    </g>
+    <g id="Dark" opacity="0.45">
+      <path d="M71.9999,43 L71.9999,46.994 L35.9999,58 L35.9999,15 L71.9999,0 L71.9999,43 Z"></path>
+      <polygon points="-0.0001 43 5.5289 45.304 -0.0001 46.994"></polygon>
+      <polygon points="-0.0001 73 -0.0001 116 41.5289 103.304 35.9999 101 35.9999 58"></polygon>
+    </g>
+  </g>
+</svg>

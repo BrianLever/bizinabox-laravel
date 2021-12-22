@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/storage/fonts/montserrat-regular.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/storage/fonts/montserrat-medium.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/storage/fonts/helveticaneuecyr-light.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/storage/fonts/helveticaneuecyr-bold.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'TakenByVultures';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/storage/fonts/takenbyvultures.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/storage/fonts/catamaran-regular.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/storage/fonts/raleway-regular.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/storage/fonts/poppins.woff') format('truetype');
+}
+
+.font-catamaran {
+  font-family: 'Catamaran', sans-serif !important;
+}
